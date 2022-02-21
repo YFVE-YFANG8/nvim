@@ -31,6 +31,7 @@ if empty(glob('~/.config/nvim/_machine_specific.vim'))
 	silent! exec "!cp ~/.config/nvim/default_configs/_machine_specific_default.vim ~/.config/nvim/_machine_specific.vim"
 endif
 source $XDG_CONFIG_HOME/nvim/_machine_specific.vim
+source $XDG_CONFIG_HOME/nvim/transparent.vim
 
 
 " ====================
@@ -1380,6 +1381,7 @@ let g:lazygit_use_neovim_remote = 1 " for neovim-remote support
 
 " ===================== End of Plugin Settings =====================
 
+" add function that set background transparent
 
 " ===
 " === Necessary Commands to Execute
